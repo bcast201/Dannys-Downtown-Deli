@@ -23,7 +23,6 @@ class Main extends Component {
         }
         return(
             <Router>
-            <div>
                 <Header />
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
@@ -33,7 +32,6 @@ class Main extends Component {
                     <Route exact path='/menu' component={Menu} />
                 </Switch>
                 <Footer />
-            </div>
             </Router>
           )
         }
