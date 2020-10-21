@@ -66,14 +66,10 @@ html {
 } */
 
 .jumbotron {
-  height: 90vh;
   /* margin-top:25px; */
   background: url("./img/bigbellydeli.jpeg") top center;
   background-size: cover;
   background-position: center;
-  height: 100%;
-  /* z-index:20; */
-  text-align: center;
 }
 
 .navbar {
