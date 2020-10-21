@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Dannys-Downtown-Deli/static/css/main.a3da6d78.chunk.css",
-    "main.js": "/Dannys-Downtown-Deli/static/js/main.5beb2b30.chunk.js",
-    "main.js.map": "/Dannys-Downtown-Deli/static/js/main.5beb2b30.chunk.js.map",
+    "main.css": "/Dannys-Downtown-Deli/static/css/main.2d68c01e.chunk.css",
+    "main.js": "/Dannys-Downtown-Deli/static/js/main.1038ad57.chunk.js",
+    "main.js.map": "/Dannys-Downtown-Deli/static/js/main.1038ad57.chunk.js.map",
     "runtime-main.js": "/Dannys-Downtown-Deli/static/js/runtime-main.314ca4ee.js",
     "runtime-main.js.map": "/Dannys-Downtown-Deli/static/js/runtime-main.314ca4ee.js.map",
     "static/css/2.2a86faee.chunk.css": "/Dannys-Downtown-Deli/static/css/2.2a86faee.chunk.css",
-    "static/js/2.29586cbc.chunk.js": "/Dannys-Downtown-Deli/static/js/2.29586cbc.chunk.js",
-    "static/js/2.29586cbc.chunk.js.map": "/Dannys-Downtown-Deli/static/js/2.29586cbc.chunk.js.map",
+    "static/js/2.4d7a90ac.chunk.js": "/Dannys-Downtown-Deli/static/js/2.4d7a90ac.chunk.js",
+    "static/js/2.4d7a90ac.chunk.js.map": "/Dannys-Downtown-Deli/static/js/2.4d7a90ac.chunk.js.map",
     "index.html": "/Dannys-Downtown-Deli/index.html",
-    "precache-manifest.051ccfb4458ed1eee561040b68283e21.js": "/Dannys-Downtown-Deli/precache-manifest.051ccfb4458ed1eee561040b68283e21.js",
+    "precache-manifest.32c3fcfaf47eadacc5dd4f6b97aa67e7.js": "/Dannys-Downtown-Deli/precache-manifest.32c3fcfaf47eadacc5dd4f6b97aa67e7.js",
     "service-worker.js": "/Dannys-Downtown-Deli/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/Dannys-Downtown-Deli/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.a3da6d78.chunk.css.map": "/Dannys-Downtown-Deli/static/css/main.a3da6d78.chunk.css.map",
-    "static/js/2.29586cbc.chunk.js.LICENSE.txt": "/Dannys-Downtown-Deli/static/js/2.29586cbc.chunk.js.LICENSE.txt",
+    "static/css/main.2d68c01e.chunk.css.map": "/Dannys-Downtown-Deli/static/css/main.2d68c01e.chunk.css.map",
+    "static/js/2.4d7a90ac.chunk.js.LICENSE.txt": "/Dannys-Downtown-Deli/static/js/2.4d7a90ac.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Dannys-Downtown-Deli/static/media/bigbellydeli.93409a4d.jpeg",
     "static/media/large2.jpg": "/Dannys-Downtown-Deli/static/media/large2.b33ea2f4.jpg",
     "static/media/window art.jpg": "/Dannys-Downtown-Deli/static/media/window art.422e890b.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.314ca4ee.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.29586cbc.chunk.js",
-    "static/css/main.a3da6d78.chunk.css",
-    "static/js/main.5beb2b30.chunk.js"
+    "static/js/2.4d7a90ac.chunk.js",
+    "static/css/main.2d68c01e.chunk.css",
+    "static/js/main.1038ad57.chunk.js"
   ]
 }
