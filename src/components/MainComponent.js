@@ -6,7 +6,7 @@ import Display from './Display';
 import Footer from './FooterComponent';
 import AboutDanny from './AboutDanny';
 import Menu from './Menu'
-import {Switch, Route, BrowserRouter as Router} from 'react-router-dom';
+import {Switch, Route, HashRouter as Router} from 'react-router-dom';
 
 
 
@@ -26,11 +26,11 @@ class Main extends Component {
             <div>
                 <Header />
                 <Switch>
-                    <Route path='/' exact component={HomePage}/>
-                    <Route path='/noBolony' component={Display}/>
-                    <Route path='/location' component={Location}/>
-                    <Route path='/aboutdanny' component={AboutDanny} />
-                    <Route path='/menu' component={Menu} />
+                    <Route exact path='/' component={HomePage}/>
+                    <Route exact path='/noBolony' component={Display}/>
+                    <Route exact path='/location' component={Location}/>
+                    <Route exact path='/aboutdanny' component={AboutDanny} />
+                    <Route exact path='/menu' component={Menu} />
                 </Switch>
                 <Footer />
             </div>
