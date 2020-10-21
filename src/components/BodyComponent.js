@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Col, Button, Modal, Jumbotron } from 'reactstrap';
+import { Container, Col, Row, Button, Modal, Jumbotron } from 'reactstrap';
+import large2 from '../img/large2.jpg';
 
 class Body extends Component {
     constructor(props) {
@@ -86,6 +87,22 @@ class Body extends Component {
 
                     </Container>
                 </Jumbotron>
+ 
+                <Container className='displayContainer'>
+                    <Row>
+                        <Col md={6}>
+                            <img className='img-responsive displayImage img-fluid' alt='sandwich' src={large2}/>
+                        </Col>
+                        <Col md={6} className='displayFlex'>
+                        <div className='taglineContainer'>
+                            <p className='tagline'>Quality Meat</p>
+                            <p className='tagline'> Quality Cheeses</p>
+                            <p className='tagline'> NO BALONEY!!</p>
+                            <p className='tagline'> Sliced Fresh Every time!!</p>
+                        </div>
+                        </Col>
+                    </Row>
+                </Container>
             </React.Fragment>
         )
     }

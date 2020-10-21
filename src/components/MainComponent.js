@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Body from './BodyComponent';
 import Location from './Map';
-import Display from './Display';
 import Footer from './FooterComponent';
 import AboutDanny from './AboutDanny';
 import Menu from './Menu'
@@ -17,7 +16,6 @@ class Main extends Component {
             return(
                 <React.Fragment>
                     <Body/>
-                    <Display />
                 </React.Fragment>
             )
         }
@@ -26,7 +24,6 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
-                    <Route exact path='/noBolony' component={Display}/>
                     <Route exact path='/location' component={Location}/>
                     <Route exact path='/aboutdanny' component={AboutDanny} />
                     <Route exact path='/menu' component={Menu} />
