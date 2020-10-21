@@ -66,7 +66,6 @@ html {
 } */
 
 .jumbotron {
-  /* margin-top:25px; */
   background: url("./img/bigbellydeli.jpeg") top center;
   background-size: cover;
   background-position: center;
@@ -85,10 +84,10 @@ html {
 
 .welcome-box {
   background-color:rgb(105,105,105, 0.8);
-  top: 50%;
+  top: 23%;
   color:white;
   position: absolute;
-  transform: translate(0%, -50%);
+  /* transform: translate(0%, -50%); */
 }
 
 .welcome-text{
