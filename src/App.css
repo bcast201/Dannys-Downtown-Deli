@@ -83,7 +83,7 @@ html {
   font-size: 3vmax;
 }
 
-.welcome {
+.welcome-box {
   background-color:rgb(105,105,105, 0.8);
   top: 50%;
   color:white;
@@ -91,12 +91,12 @@ html {
   transform: translate(0%, -50%);
 }
 
-.welcometext{
+.welcome-text{
   font-size: 3vmax ;
   font-family: 'Unkempt', cursive;
 }
 
-#divtext{
+#div-text{
   font-size: 3vmin;
 }
 
