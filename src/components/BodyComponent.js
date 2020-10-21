@@ -23,13 +23,13 @@ class Body extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron>
+                <Jumbotron className='jumbotron-fluid'>
                     <Container className='welcome-box p-5 col-sm-7 w-100 mx-auto text-center'>
                             <Col>
-                                <h1 className='welcome-text'> Test9 Welcome To The Finest Deli In Lincoln!</h1>
+                                <h1 className='welcome-text'> Test10 Welcome To The Finest Deli In Lincoln!</h1>
                             </Col>
                             <Col className='pt-3'>
-                                <p id="div-text">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a></p>
+                                <p id="div-text">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"> 402-438-9410</a></p>
                             </Col>
                             <Col>
                                 <Button color='success' onClick={this.toggleModal}>Check out our menu!</Button>
