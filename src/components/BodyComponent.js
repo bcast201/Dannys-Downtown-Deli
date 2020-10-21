@@ -88,7 +88,7 @@ class Body extends Component {
                     </Container>
                 </Jumbotron>
  
-                <Container className='displayContainer'>
+                {/* <Container className='displayContainer'>
                     <Row>
                         <Col md={6}>
                             <img className='img-responsive displayImage img-fluid' alt='sandwich' src={large2}/>
@@ -102,7 +102,7 @@ class Body extends Component {
                         </div>
                         </Col>
                     </Row>
-                </Container>
+                </Container> */}
             </React.Fragment>
         )
     }
