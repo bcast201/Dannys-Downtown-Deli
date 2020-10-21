@@ -27,7 +27,7 @@ class Body extends Component {
                         <h1 className='welcometext pt-5'>Welcome To The Finest Deli In Lincoln!</h1>
                     </div>
                     <div className='col divtextcontainer pt-3'>
-                        <p id="divtext">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i class="fa fa-phone"></i> 402-438-9410</a></p>
+                        <p id="divtext">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a></p>
                     </div>
                     <div className='container'>
                         <Button color='success' onClick={this.toggleModal}>Check out our menu!</Button>

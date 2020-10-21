@@ -72,7 +72,7 @@ html {
   background-size: cover;
   background-position: center;
   height: 100%;
-  z-index:20;
+  /* z-index:20; */
   text-align: center;
 }
 
