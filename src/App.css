@@ -70,6 +70,8 @@ html {
   background: url("./img/bigbellydeli.jpeg") top center;
   background-size: cover;
   background-position: center;
+  height: 600px;
+  position: relative;
 }
 
 .navbar {
@@ -83,10 +85,10 @@ html {
 
 .welcome {
   background-color:rgb(105,105,105, 0.8);
-  margin-top: 15vmin;
+  top: 50%;
   color:white;
-  height: 50vh;
   position: absolute;
+  transform: translate(0%, -50%);
 }
 
 .welcometext{
@@ -96,7 +98,6 @@ html {
 
 #divtext{
   font-size: 3vmin;
-  margin-top: 9vmin;
 }
 
 
@@ -109,12 +110,12 @@ html {
   }
 }
 
-.button-group {
+/* .button-group {
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
 @media screen and (max-width: 400px) {
   #buttonSpace{

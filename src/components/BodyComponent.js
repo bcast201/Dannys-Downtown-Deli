@@ -22,10 +22,10 @@ class Body extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron className='text-center'>
-                    <Container className='welcome col-sm-7 mx-auto'>
+                <Jumbotron>
+                    <Container className='welcome p-5 col-sm-7 mx-auto text-center'>
                             <Col>
-                                <h1 className='welcometext pt-5'>Welcome To The Finest Deli In Lincoln!</h1>
+                                <h1 className='welcometext'>Welcome To The Finest Deli In Lincoln!</h1>
                             </Col>
                             <Col className='divtextcontainer pt-3'>
                                 <p id="divtext">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a></p>
