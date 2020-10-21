@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dannys-Downtown-Deli/precache-manifest.fc827c3ee98fee3752f09c3b36e08b35.js"
+  "/Dannys-Downtown-Deli/precache-manifest.c945d75f80fc55bd8090ce3f4a51e5f5.js"
 );
 
 self.addEventListener('message', (event) => {
