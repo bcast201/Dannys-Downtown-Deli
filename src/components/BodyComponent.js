@@ -26,7 +26,7 @@ class Body extends Component {
                 <Jumbotron className='jumbotron-fluid'>
                     <Container className='welcome-box p-5 col-sm-7 w-100 mx-auto text-center'>
                             <Col>
-                                <h1 className='welcome-text'> Test11 Welcome To The Finest Deli In Lincoln!</h1>
+                                <h1 className='welcome-text'> Welcome To The Finest Deli In Lincoln!</h1>
                             </Col>
                             <Col className='pt-3'>
                                 <p id="div-text">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"> 402-438-9410</a></p>
