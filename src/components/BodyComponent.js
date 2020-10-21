@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Modal } from 'reactstrap';
+import { Container, Col, Button, Modal, Jumbotron } from 'reactstrap';
 
 class Body extends Component {
     constructor(props) {
@@ -22,17 +22,17 @@ class Body extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className='jumbotron text-center'>
-                    <div className='container welcome col-sm-7 mx-auto'>
-                        <div className='col'>
-                            <h1 className='welcometext pt-5'>Welcome To The Finest Deli In Lincoln!</h1>
-                        </div>
-                        <div className='col divtextcontainer pt-3'>
-                            <p id="divtext">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a></p>
-                        </div>
-                        <div className='col'>
-                            <Button color='success' onClick={this.toggleModal}>Check out our menu!</Button>
-                        </div>
+                <Jumbotron className='text-center'>
+                    <Container className='welcome col-sm-7 mx-auto'>
+                            <Col>
+                                <h1 className='welcometext pt-5'>Welcome To The Finest Deli In Lincoln!</h1>
+                            </Col>
+                            <Col className='divtextcontainer pt-3'>
+                                <p id="divtext">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a></p>
+                            </Col>
+                            <Col>
+                                <Button color='success' onClick={this.toggleModal}>Check out our menu!</Button>
+                            </Col>
                         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                             <div className="modal-dialog">
                                 <div className="modal-content">
@@ -84,8 +84,8 @@ class Body extends Component {
                             </div>
                         </Modal>
 
-                    </div>
-                </div>
+                    </Container>
+                </Jumbotron>
             </React.Fragment>
         )
     }
