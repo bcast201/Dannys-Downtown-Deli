@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "718bf4d78dc361fab4af11032f0160ce",
+    "revision": "66a1ee63947c497f678e36571320ffbc",
     "url": "/Dannys-Downtown-Deli/index.html"
   },
   {
-    "revision": "2b00461d05dd9dd18190",
+    "revision": "e900889276c376d3a5fc",
     "url": "/Dannys-Downtown-Deli/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "83ffc0395616e2a8dc9a",
-    "url": "/Dannys-Downtown-Deli/static/css/main.9771de90.chunk.css"
+    "revision": "8da364838858573c949f",
+    "url": "/Dannys-Downtown-Deli/static/css/main.a3da6d78.chunk.css"
   },
   {
-    "revision": "2b00461d05dd9dd18190",
-    "url": "/Dannys-Downtown-Deli/static/js/2.34025139.chunk.js"
+    "revision": "e900889276c376d3a5fc",
+    "url": "/Dannys-Downtown-Deli/static/js/2.29586cbc.chunk.js"
   },
   {
     "revision": "24a85d013fe3920224b2a90395887eff",
-    "url": "/Dannys-Downtown-Deli/static/js/2.34025139.chunk.js.LICENSE.txt"
+    "url": "/Dannys-Downtown-Deli/static/js/2.29586cbc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83ffc0395616e2a8dc9a",
-    "url": "/Dannys-Downtown-Deli/static/js/main.b8cd5d4b.chunk.js"
+    "revision": "8da364838858573c949f",
+    "url": "/Dannys-Downtown-Deli/static/js/main.5beb2b30.chunk.js"
   },
   {
     "revision": "a73e5bd3d20d60a943b0",
