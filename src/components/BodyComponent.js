@@ -24,7 +24,7 @@ class Body extends Component {
         return (
             <React.Fragment>
                 <Jumbotron>
-                    <Container className='welcome p-5 col-sm-7 mx-auto text-center'>
+                    <Container className='welcome p-5 col-sm-7 text-center'>
                             <Col>
                                 <h1 className='welcometext'>Welcome To The Finest Deli In Lincoln!</h1>
                             </Col>
