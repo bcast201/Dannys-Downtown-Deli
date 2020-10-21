@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bcast201.github.io/DowntownDeliReact2/"
   "name": "downtowndeli",
   "homepage": "https://bcast201.github.io/DowntownDeliReact2/",
   "version": "0.1.0",
@@ -16,7 +17,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.4.1",
-    "reactstrap": "^8.5.1"
+    "reactstrap": "^8.5.1",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
