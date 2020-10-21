@@ -26,7 +26,7 @@ class Body extends Component {
                 <Jumbotron>
                     <Container className='welcome-box p-5 col-sm-7 text-center'>
                             <Col>
-                                <h1 className='welcome-text'> Test2 Welcome To The Finest Deli In Lincoln!</h1>
+                                <h1 className='welcome-text'> Test4 Welcome To The Finest Deli In Lincoln!</h1>
                             </Col>
                             <Col className='pt-3'>
                                 <p id="div-text">Take-out only due to Covid-19. Stop by or call ahead! <a role="button" className="text-white" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a></p>
@@ -88,7 +88,7 @@ class Body extends Component {
                     </Container>
                 </Jumbotron>
  
-                {/* <Container className='displayContainer'>
+                <Container className='displayContainer'>
                     <Row>
                         <Col md={6}>
                             <img className='img-responsive displayImage img-fluid' alt='sandwich' src={large2}/>
@@ -102,7 +102,7 @@ class Body extends Component {
                         </div>
                         </Col>
                     </Row>
-                </Container> */}
+                </Container>
             </React.Fragment>
         )
     }
