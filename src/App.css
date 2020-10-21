@@ -70,7 +70,7 @@ html {
   background-size: cover;
   background-position: center;
   height: 600px;
-  position: relative;
+  /* position: relative; */
 }
 
 .navbar {
@@ -86,7 +86,7 @@ html {
   background-color:rgb(105,105,105, 0.8);
   top: 23%;
   color:white;
-  position: absolute;
+  /* position: absolute; */
   /* transform: translate(0%, -50%); */
 }
 
